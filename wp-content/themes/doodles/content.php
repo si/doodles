@@ -33,6 +33,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php doodles_entry_footer(); ?>
+		<?php //doodles_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
