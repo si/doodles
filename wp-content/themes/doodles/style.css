@@ -852,17 +852,23 @@ a:hover, a:active {
 9.0 Widgets
 --------------------------------------------------------------*/
 /* line 1, sass/site/secondary/_widgets.scss */
+.widget-area {
+  background: url(img/floral-rule.svg) no-repeat 50% 2rem;
+  padding-top: 7rem;
+}
+
+/* line 6, sass/site/secondary/_widgets.scss */
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
 }
-/* line 5, sass/site/secondary/_widgets.scss */
+/* line 10, sass/site/secondary/_widgets.scss */
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget. */
-/* line 11, sass/site/secondary/_widgets.scss */
+/* line 16, sass/site/secondary/_widgets.scss */
 .widget_search .search-submit {
   display: none;
 }
