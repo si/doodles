@@ -40,6 +40,7 @@ $content-width : 36rem;
 }
 .entry-meta {
 	color: rgba(#000,0.3);
+	margin: -1rem 0 2rem;
 	text-align: center;
 
 	a {
@@ -67,6 +68,17 @@ $content-width : 36rem;
 		&:nth-child(even) img {
 			transform: rotate(1deg);
 		}
+	}
+}
+
+.tags-links {
+	display: block;
+	margin: 0 1rem;
+	opacity: 0.5;
+	text-align: right;
+
+	&:hover {
+		opacity: 1;
 	}
 }
 
