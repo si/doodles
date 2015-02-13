@@ -86,3 +86,45 @@ $content-width : 36rem;
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+.nav-links {
+	clear: both;
+	overflow: hidden;
+
+	a {
+		background: {
+			color: rgba(#000, 0.1);
+			repeat: no-repeat;
+			image: url(img/arrow.svg);
+			size: 50px;
+		}
+		display: inline-block;
+		line-height: 1;
+		padding: 0.5rem 1rem;
+	}
+
+	.nav-previous {
+		float: left;
+
+		a {
+			background: {
+				position: 10px 50%;
+				size: 50px;
+			}
+			padding-left: 70px;
+		}
+	}
+
+	.nav-next {
+		float: right;
+
+		a {
+			background: {
+				position: 95% 50%;
+				size: 50px;
+			}
+			padding-right: 70px;
+		}
+	}
+
+}
