@@ -41,7 +41,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
-/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,46 +63,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/gem/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -121,7 +121,7 @@ body {
   margin: 0;
 }
 
-/* line 22, sass/_normalize.scss */
+/* line 11, sass/_normalize.scss */
 article,
 aside,
 details,
@@ -137,7 +137,7 @@ summary {
   display: block;
 }
 
-/* line 29, sass/_normalize.scss */
+/* line 26, sass/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -152,7 +152,7 @@ audio:not([controls]) {
   height: 0;
 }
 
-/* line 40, sass/_normalize.scss */
+/* line 39, sass/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -163,7 +163,7 @@ a {
   background-color: transparent;
 }
 
-/* line 49, sass/_normalize.scss */
+/* line 48, sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -174,7 +174,7 @@ abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 58, sass/_normalize.scss */
+/* line 57, sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -202,7 +202,7 @@ small {
   font-size: 80%;
 }
 
-/* line 81, sass/_normalize.scss */
+/* line 80, sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -247,7 +247,7 @@ pre {
   overflow: auto;
 }
 
-/* line 120, sass/_normalize.scss */
+/* line 117, sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -256,7 +256,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 129, sass/_normalize.scss */
+/* line 125, sass/_normalize.scss */
 button,
 input,
 optgroup,
@@ -272,13 +272,13 @@ button {
   overflow: visible;
 }
 
-/* line 140, sass/_normalize.scss */
+/* line 139, sass/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 147, sass/_normalize.scss */
+/* line 144, sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -287,13 +287,13 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 153, sass/_normalize.scss */
+/* line 152, sass/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 158, sass/_normalize.scss */
+/* line 157, sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -305,14 +305,14 @@ input {
   line-height: normal;
 }
 
-/* line 168, sass/_normalize.scss */
+/* line 167, sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 174, sass/_normalize.scss */
+/* line 173, sass/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -324,7 +324,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 184, sass/_normalize.scss */
+/* line 183, sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -359,7 +359,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 213, sass/_normalize.scss */
+/* line 212, sass/_normalize.scss */
 td,
 th {
   padding: 0;
@@ -368,7 +368,7 @@ th {
 /*--------------------------------------------------------------
 2.0 Typography
 --------------------------------------------------------------*/
-/* line 5, sass/typography/_typography.scss */
+/* line 1, sass/typography/_typography.scss */
 body,
 button,
 input,
@@ -415,7 +415,7 @@ address {
 
 /* line 21, sass/typography/_copy.scss */
 pre {
-  background: #eeeeee;
+  background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -435,7 +435,7 @@ code, kbd, tt, var {
 
 /* line 37, sass/typography/_copy.scss */
 abbr, acronym {
-  border-bottom: 1px dotted #666666;
+  border-bottom: 1px dotted #666;
   cursor: help;
 }
 
@@ -458,7 +458,7 @@ html {
   box-sizing: border-box;
 }
 
-/* line 7, sass/elements/_elements.scss */
+/* line 5, sass/elements/_elements.scss */
 *,
 *:before,
 *:after {
@@ -468,11 +468,11 @@ html {
 
 /* line 11, sass/elements/_elements.scss */
 body {
-  background: white;
+  background: #fff;
   /* Fallback for when there is no custom background color defined. */
 }
 
-/* line 16, sass/elements/_elements.scss */
+/* line 15, sass/elements/_elements.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
@@ -485,7 +485,7 @@ blockquote, q {
 
 /* line 24, sass/elements/_elements.scss */
 hr {
-  background-color: #cccccc;
+  background-color: #ccc;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
@@ -506,7 +506,7 @@ ol {
   list-style: decimal;
 }
 
-/* line 14, sass/elements/_lists.scss */
+/* line 13, sass/elements/_lists.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -540,13 +540,13 @@ table {
 /*--------------------------------------------------------------
 4.0 Forms
 --------------------------------------------------------------*/
-/* line 4, sass/forms/_buttons.scss */
+/* line 1, sass/forms/_buttons.scss */
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #cccccc #cccccc #bbbbbb;
+  border-color: #ccc #ccc #bbb;
   border-radius: 3px;
   background: #e6e6e6;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
@@ -558,16 +558,16 @@ input[type="submit"] {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
-/* line 20, sass/forms/_buttons.scss */
+/* line 17, sass/forms/_buttons.scss */
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #cccccc #bbbbbb #aaaaaa;
+  border-color: #ccc #bbb #aaa;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
-/* line 32, sass/forms/_buttons.scss */
+/* line 25, sass/forms/_buttons.scss */
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -576,33 +576,33 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-  border-color: #aaaaaa #bbbbbb #bbbbbb;
+  border-color: #aaa #bbb #bbb;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-/* line 6, sass/forms/_fields.scss */
+/* line 1, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666666;
-  border: 1px solid #cccccc;
+  color: #666;
+  border: 1px solid #ccc;
   border-radius: 3px;
 }
 
-/* line 17, sass/forms/_fields.scss */
+/* line 12, sass/forms/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-  color: #111111;
+  color: #111;
 }
 
-/* line 25, sass/forms/_fields.scss */
+/* line 21, sass/forms/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -643,7 +643,7 @@ a {
 a:visited {
   color: rgba(0, 0, 0, 0.4);
 }
-/* line 10, sass/navigation/_links.scss */
+/* line 8, sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -651,7 +651,7 @@ a:hover, a:focus, a:active {
 a:focus {
   outline: thin dotted;
 }
-/* line 17, sass/navigation/_links.scss */
+/* line 16, sass/navigation/_links.scss */
 a:hover, a:active {
   outline: 0;
 }
@@ -663,7 +663,7 @@ a:hover, a:active {
 .main-navigation {
   clear: both;
   display: block;
-  margin: 0 auto;
+  margin: 3rem auto;
   max-width: 36rem;
   text-align: center;
   width: 100%;
@@ -700,23 +700,30 @@ a:hover, a:active {
 }
 /* line 48, sass/navigation/_menus.scss */
 .main-navigation li {
+  display: inline-block;
   position: relative;
+  width: auto;
 }
-/* line 54, sass/navigation/_menus.scss */
+/* line 53, sass/navigation/_menus.scss */
+.main-navigation li:hover > a {
+  background: rgba(0, 0, 0, 0.05);
+}
+/* line 57, sass/navigation/_menus.scss */
 .main-navigation a {
-  display: block;
+  border-radius: 1rem;
   padding: 0.75rem;
   text-decoration: none;
+  transition: background ease 0.5s;
 }
 
 /* Small menu. */
-/* line 67, sass/navigation/_menus.scss */
+/* line 71, sass/navigation/_menus.scss */
 .menu-toggle {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 73, sass/navigation/_menus.scss */
+  /* line 76, sass/navigation/_menus.scss */
   .menu-toggle,
   .main-navigation.toggled .nav-menu {
     display: block;
@@ -724,18 +731,18 @@ a:hover, a:active {
     right: 1rem;
     top: 4rem;
   }
-  /* line 79, sass/navigation/_menus.scss */
+  /* line 83, sass/navigation/_menus.scss */
   .menu-toggle:before,
   .main-navigation.toggled .nav-menu:before {
     content: "=";
   }
 
-  /* line 84, sass/navigation/_menus.scss */
+  /* line 88, sass/navigation/_menus.scss */
   .main-navigation ul {
     display: none;
   }
 }
-/* line 91, sass/navigation/_menus.scss */
+/* line 93, sass/navigation/_menus.scss */
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
@@ -743,7 +750,7 @@ a:hover, a:active {
   overflow: hidden;
 }
 
-/* line 98, sass/navigation/_menus.scss */
+/* line 100, sass/navigation/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -751,7 +758,7 @@ a:hover, a:active {
   width: 50%;
 }
 
-/* line 105, sass/navigation/_menus.scss */
+/* line 107, sass/navigation/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -772,7 +779,7 @@ a:hover, a:active {
   width: 1px;
   overflow: hidden;
 }
-/* line 11, sass/modules/_accessibility.scss */
+/* line 9, sass/modules/_accessibility.scss */
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -821,7 +828,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 8.0 Clearings
 --------------------------------------------------------------*/
-/* line 12, sass/modules/_clearings.scss */
+/* line 1, sass/modules/_clearings.scss */
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -838,7 +845,7 @@ a:hover, a:active {
   display: table;
 }
 
-/* line 21, sass/modules/_clearings.scss */
+/* line 16, sass/modules/_clearings.scss */
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -889,19 +896,19 @@ a:hover, a:active {
   margin: 0 0 1.5em;
 }
 
-/* line 12, sass/site/primary/_posts-and-pages.scss */
+/* line 11, sass/site/primary/_posts-and-pages.scss */
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-/* line 17, sass/site/primary/_posts-and-pages.scss */
+/* line 16, sass/site/primary/_posts-and-pages.scss */
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-/* line 23, sass/site/primary/_posts-and-pages.scss */
+/* line 21, sass/site/primary/_posts-and-pages.scss */
 .page-content,
 .entry-content,
 .entry-summary {
@@ -1010,7 +1017,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 10.2 Asides
 --------------------------------------------------------------*/
-/* line 2, sass/site/primary/_asides.scss */
+/* line 1, sass/site/primary/_asides.scss */
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -1033,7 +1040,7 @@ a:hover, a:active {
 11.0 Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-/* line 3, sass/modules/_infinite-scroll.scss */
+/* line 2, sass/modules/_infinite-scroll.scss */
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -1049,7 +1056,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 12.0 Media
 --------------------------------------------------------------*/
-/* line 3, sass/media/_media.scss */
+/* line 1, sass/media/_media.scss */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1060,7 +1067,7 @@ a:hover, a:active {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-/* line 13, sass/media/_media.scss */
+/* line 11, sass/media/_media.scss */
 embed,
 iframe,
 object {
