@@ -48,7 +48,9 @@ $content-width : 36rem;
 	}
 }
 
-.entry-content {
+.entry-content,
+.entry-footer,
+.comments-area {
 	margin: 0 auto;
 	max-width: $content-width;
 	padding: 0 1rem;

@@ -1,6 +1,10 @@
+$content-width : 36rem;
+
 .widget-area {
+	margin: 0 auto;
+	max-width: $content-width;
 	background: url(img/floral-rule.svg) no-repeat 50% 2rem;
-	padding-top: 7rem;
+	padding: 7rem 1rem;
 }
 
 .widget {

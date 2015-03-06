@@ -880,24 +880,26 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
-/* line 1, sass/site/secondary/_widgets.scss */
+/* line 3, sass/site/secondary/_widgets.scss */
 .widget-area {
+  margin: 0 auto;
+  max-width: 36rem;
   background: url(img/floral-rule.svg) no-repeat 50% 2rem;
-  padding-top: 7rem;
+  padding: 7rem 1rem;
 }
 
-/* line 6, sass/site/secondary/_widgets.scss */
+/* line 10, sass/site/secondary/_widgets.scss */
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
 }
-/* line 10, sass/site/secondary/_widgets.scss */
+/* line 14, sass/site/secondary/_widgets.scss */
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget. */
-/* line 16, sass/site/secondary/_widgets.scss */
+/* line 20, sass/site/secondary/_widgets.scss */
 .widget_search .search-submit {
   display: none;
 }
@@ -961,51 +963,59 @@ a:hover, a:active {
 }
 
 /* line 51, sass/site/primary/_posts-and-pages.scss */
-.entry-content {
+.entry-content,
+.entry-footer,
+.comments-area {
   margin: 0 auto;
   max-width: 36rem;
   padding: 0 1rem;
 }
-/* line 57, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure img {
+/* line 59, sass/site/primary/_posts-and-pages.scss */
+.entry-content figure img,
+.entry-footer figure img,
+.comments-area figure img {
   border: 3px solid #333;
   background: rgba(255, 255, 255, 0.5);
   transform: rotate(-1deg);
   transition: all 0.3s ease;
 }
-/* line 63, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure img:hover {
+/* line 65, sass/site/primary/_posts-and-pages.scss */
+.entry-content figure img:hover,
+.entry-footer figure img:hover,
+.comments-area figure img:hover {
   transform: rotate(0);
 }
-/* line 68, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure:nth-child(even) img {
+/* line 70, sass/site/primary/_posts-and-pages.scss */
+.entry-content figure:nth-child(even) img,
+.entry-footer figure:nth-child(even) img,
+.comments-area figure:nth-child(even) img {
   transform: rotate(1deg);
 }
 
-/* line 74, sass/site/primary/_posts-and-pages.scss */
+/* line 76, sass/site/primary/_posts-and-pages.scss */
 .tags-links {
   display: block;
   margin: 0 1rem;
   opacity: 0.5;
   text-align: right;
 }
-/* line 80, sass/site/primary/_posts-and-pages.scss */
+/* line 82, sass/site/primary/_posts-and-pages.scss */
 .tags-links:hover {
   opacity: 1;
 }
 
-/* line 85, sass/site/primary/_posts-and-pages.scss */
+/* line 87, sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
 
-/* line 90, sass/site/primary/_posts-and-pages.scss */
+/* line 92, sass/site/primary/_posts-and-pages.scss */
 .nav-links {
   clear: both;
   overflow: hidden;
 }
-/* line 94, sass/site/primary/_posts-and-pages.scss */
+/* line 96, sass/site/primary/_posts-and-pages.scss */
 .nav-links a {
   background-color: rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
@@ -1015,21 +1025,21 @@ a:hover, a:active {
   line-height: 1;
   padding: 0.5rem 1rem;
 }
-/* line 106, sass/site/primary/_posts-and-pages.scss */
+/* line 108, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous {
   float: left;
 }
-/* line 109, sass/site/primary/_posts-and-pages.scss */
+/* line 111, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous a {
   background-position: 10px 50%;
   background-size: 50px;
   padding-left: 70px;
 }
-/* line 118, sass/site/primary/_posts-and-pages.scss */
+/* line 120, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next {
   float: right;
 }
-/* line 121, sass/site/primary/_posts-and-pages.scss */
+/* line 123, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next a {
   background-position: 95% 50%;
   background-size: 50px;
