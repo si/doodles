@@ -728,21 +728,43 @@ a:hover, a:active {
   .main-navigation.toggled .nav-menu {
     display: block;
     position: absolute;
-    right: 1rem;
     top: 4rem;
-  }
-  /* line 83, sass/navigation/_menus.scss */
-  .menu-toggle:before,
-  .main-navigation.toggled .nav-menu:before {
-    content: "=";
+    right: 1rem;
   }
 
-  /* line 88, sass/navigation/_menus.scss */
+  /* line 83, sass/navigation/_menus.scss */
+  .main-navigation.toggled .nav-menu {
+    background: rgba(0, 0, 0, 0.9);
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  /* line 89, sass/navigation/_menus.scss */
+  .menu-toggle {
+    background: url(img/menu.svg) no-repeat 50% 50%;
+    background-size: 20px 20px;
+    text-indent: -999rem;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 97, sass/navigation/_menus.scss */
   .main-navigation ul {
     display: none;
   }
+  /* line 100, sass/navigation/_menus.scss */
+  .main-navigation ul li {
+    display: block;
+  }
+  /* line 103, sass/navigation/_menus.scss */
+  .main-navigation ul li a {
+    color: #FFF;
+    display: inline-block;
+    padding: 1rem;
+  }
 }
-/* line 93, sass/navigation/_menus.scss */
+/* line 112, sass/navigation/_menus.scss */
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
@@ -750,7 +772,7 @@ a:hover, a:active {
   overflow: hidden;
 }
 
-/* line 100, sass/navigation/_menus.scss */
+/* line 119, sass/navigation/_menus.scss */
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
@@ -758,7 +780,7 @@ a:hover, a:active {
   width: 50%;
 }
 
-/* line 107, sass/navigation/_menus.scss */
+/* line 126, sass/navigation/_menus.scss */
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
