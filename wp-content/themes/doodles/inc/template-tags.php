@@ -84,15 +84,17 @@ function doodles_posted_on() {
 
 	$posted_on = sprintf(
 		_x( 'Posted on %s', 'post date', 'doodles' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		'<span class="posted-on"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a></span>'
 	);
 
-	$byline = sprintf(
-		_x( 'by %s', 'post author', 'doodles' ),
-		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
-	);
+	if(isset($params)) {
+		$posted_on .= sprintf(
+			_x( 'by %s', 'post author', 'doodles' ),
+			'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
+		);
+	}
 
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+	echo $posted_on;
 
 }
 endif;
