@@ -61,14 +61,25 @@ $content-width : 36rem;
 			background: rgba(#fff, 0.5);
 			transform: rotate(-1deg);
 			transition: all 0.3s ease;
+			z-index: 10;
 			
 			&:hover {
 				transform: rotate(0);
 			}
+
 		}
 
 		&:nth-child(even) img {
 			transform: rotate(1deg);
+		}
+
+		.wp-caption-text {
+			transform: rotate(1deg);
+			z-index: 20;
+		}
+		
+		&:nth-child(even) .wp-caption-text {
+			transform: rotate(-1deg);
 		}
 	}
 }
