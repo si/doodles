@@ -388,6 +388,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* line 7, sass/typography/_headings.scss */
+h1 {
+  font-size: 5rem;
+  line-height: 0.7;
+  margin-bottom: 5rem;
+}
+
 /* line 1, sass/typography/_copy.scss */
 p {
   margin-bottom: 1.5em;
@@ -978,44 +985,58 @@ a:hover, a:active {
   background: rgba(255, 255, 255, 0.5);
   transform: rotate(-1deg);
   transition: all 0.3s ease;
+  z-index: 10;
 }
-/* line 65, sass/site/primary/_posts-and-pages.scss */
+/* line 66, sass/site/primary/_posts-and-pages.scss */
 .entry-content figure img:hover,
 .entry-footer figure img:hover,
 .comments-area figure img:hover {
   transform: rotate(0);
 }
-/* line 70, sass/site/primary/_posts-and-pages.scss */
+/* line 72, sass/site/primary/_posts-and-pages.scss */
 .entry-content figure:nth-child(even) img,
 .entry-footer figure:nth-child(even) img,
 .comments-area figure:nth-child(even) img {
   transform: rotate(1deg);
 }
-
 /* line 76, sass/site/primary/_posts-and-pages.scss */
+.entry-content figure .wp-caption-text,
+.entry-footer figure .wp-caption-text,
+.comments-area figure .wp-caption-text {
+  transform: rotate(1deg);
+  z-index: 20;
+}
+/* line 81, sass/site/primary/_posts-and-pages.scss */
+.entry-content figure:nth-child(even) .wp-caption-text,
+.entry-footer figure:nth-child(even) .wp-caption-text,
+.comments-area figure:nth-child(even) .wp-caption-text {
+  transform: rotate(-1deg);
+}
+
+/* line 87, sass/site/primary/_posts-and-pages.scss */
 .tags-links {
   display: block;
   margin: 0 1rem;
   opacity: 0.5;
   text-align: right;
 }
-/* line 82, sass/site/primary/_posts-and-pages.scss */
+/* line 93, sass/site/primary/_posts-and-pages.scss */
 .tags-links:hover {
   opacity: 1;
 }
 
-/* line 87, sass/site/primary/_posts-and-pages.scss */
+/* line 98, sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
 
-/* line 92, sass/site/primary/_posts-and-pages.scss */
+/* line 103, sass/site/primary/_posts-and-pages.scss */
 .nav-links {
   clear: both;
   overflow: hidden;
 }
-/* line 96, sass/site/primary/_posts-and-pages.scss */
+/* line 107, sass/site/primary/_posts-and-pages.scss */
 .nav-links a {
   background-color: rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
@@ -1025,21 +1046,21 @@ a:hover, a:active {
   line-height: 1;
   padding: 0.5rem 1rem;
 }
-/* line 108, sass/site/primary/_posts-and-pages.scss */
+/* line 119, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous {
   float: left;
 }
-/* line 111, sass/site/primary/_posts-and-pages.scss */
+/* line 122, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous a {
   background-position: 10px 50%;
   background-size: 50px;
   padding-left: 70px;
 }
-/* line 120, sass/site/primary/_posts-and-pages.scss */
+/* line 131, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next {
   float: right;
 }
-/* line 123, sass/site/primary/_posts-and-pages.scss */
+/* line 134, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next a {
   background-position: 95% 50%;
   background-size: 50px;
@@ -1066,6 +1087,21 @@ a:hover, a:active {
 /* line 4, sass/site/primary/_comments.scss */
 .bypostauthor {
   display: block;
+}
+
+/*--------------------------------------------------------------
+10.4 Footer
+--------------------------------------------------------------*/
+/* line 3, sass/site/primary/_site-footer.scss */
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 3rem 1rem;
+}
+/* line 7, sass/site/primary/_site-footer.scss */
+footer .site-info {
+  margin: 0 auto;
+  max-width: 36rem;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -1111,7 +1147,7 @@ object {
 --------------------------------------------------------------*/
 /* line 1, sass/media/_captions.scss */
 .wp-caption {
-  margin-bottom: 1.5em;
+  margin: 2.5rem auto;
   max-width: 100%;
 }
 /* line 5, sass/media/_captions.scss */
@@ -1122,11 +1158,13 @@ object {
 }
 /* line 9, sass/media/_captions.scss */
 .wp-caption .wp-caption-text {
-  margin: 0.8075em 0;
+  margin-top: -1rem;
 }
 
 /* line 14, sass/media/_captions.scss */
 .wp-caption-text {
+  background: #000;
+  color: #FFF;
   text-align: center;
 }
 
