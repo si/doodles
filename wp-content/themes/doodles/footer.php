@@ -12,9 +12,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'doodles' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'doodles' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'doodles' ), 'Doodles', '<a href="http://twitter.com/Si" rel="designer">Si</a>' ); ?>
+			<p>OCD Exposed is written anonymously under the pseudonym Lily.</p> 
+			<p>Email <a href="mailto:lily@ocdexposed.com">lily@ocdexposed.com</a> or tweet <a href="https://twitter.com/@ocdexposed">@ocdexposed</a> for questions, thoughts and more.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
