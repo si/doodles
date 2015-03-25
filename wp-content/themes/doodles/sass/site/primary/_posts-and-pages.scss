@@ -115,12 +115,6 @@ $content-width : 36rem;
 	overflow: hidden;
 
 	a {
-		background: {
-			color: rgba(#000, 0.1);
-			repeat: no-repeat;
-			image: url(img/arrow.svg);
-			size: 50px;
-		}
 		display: inline-block;
 		line-height: 1;
 		padding: 0.5rem 1rem;
@@ -130,11 +124,28 @@ $content-width : 36rem;
 		float: left;
 
 		a {
-			background: {
-				position: 10px 50%;
-				size: 50px;
+			&:before {
+				background: {
+					repeat: no-repeat;
+					image: url(img/arrow.svg);
+					size: 50px;
+					position: 0 50%;
+				}
+				content: " ";
+				display: inline-block;
+				height: 20px;
+				margin-right: 10px;
+				width: 50px;
+				transform: scaleX(-1);
+				transition: margin 0.3s ease;
 			}
-			padding-left: 70px;
+			
+			&:hover {
+			
+				&:before {
+					margin-left: -10px;
+				}
+			}
 		}
 	}
 
@@ -142,11 +153,27 @@ $content-width : 36rem;
 		float: right;
 
 		a {
-			background: {
-				position: 95% 50%;
-				size: 50px;
+			&:after {
+				background: {
+					repeat: no-repeat;
+					image: url(img/arrow.svg);
+					size: 50px;
+					position: 0 50%;
+				}
+				content: " ";
+				display: inline-block;
+				height: 20px;
+				margin-left: 10px;
+				width: 50px;
+				transition: margin 0.3s ease;
 			}
-			padding-right: 70px;
+
+			&:hover {
+			
+				&:after {
+					margin-right: -10px;
+				}
+			}
 		}
 	}
 }

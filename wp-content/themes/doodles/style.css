@@ -1048,42 +1048,61 @@ a:hover, a:active {
 }
 /* line 117, sass/site/primary/_posts-and-pages.scss */
 .nav-links a {
-  background-color: rgba(0, 0, 0, 0.1);
-  background-repeat: no-repeat;
-  background-image: url(img/arrow.svg);
-  background-size: 50px;
   display: inline-block;
   line-height: 1;
   padding: 0.5rem 1rem;
 }
-/* line 129, sass/site/primary/_posts-and-pages.scss */
+/* line 123, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous {
   float: left;
 }
-/* line 132, sass/site/primary/_posts-and-pages.scss */
-.nav-links .nav-previous a {
-  background-position: 10px 50%;
+/* line 127, sass/site/primary/_posts-and-pages.scss */
+.nav-links .nav-previous a:before {
+  background-repeat: no-repeat;
+  background-image: url(img/arrow.svg);
   background-size: 50px;
-  padding-left: 70px;
+  background-position: 0 50%;
+  content: " ";
+  display: inline-block;
+  height: 20px;
+  margin-right: 10px;
+  width: 50px;
+  transform: scaleX(-1);
+  transition: margin 0.3s ease;
 }
-/* line 141, sass/site/primary/_posts-and-pages.scss */
+/* line 145, sass/site/primary/_posts-and-pages.scss */
+.nav-links .nav-previous a:hover:before {
+  margin-left: -10px;
+}
+/* line 152, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next {
   float: right;
 }
-/* line 144, sass/site/primary/_posts-and-pages.scss */
-.nav-links .nav-next a {
-  background-position: 95% 50%;
+/* line 156, sass/site/primary/_posts-and-pages.scss */
+.nav-links .nav-next a:after {
+  background-repeat: no-repeat;
+  background-image: url(img/arrow.svg);
   background-size: 50px;
-  padding-right: 70px;
+  background-position: 0 50%;
+  content: " ";
+  display: inline-block;
+  height: 20px;
+  margin-left: 10px;
+  width: 50px;
+  transition: margin 0.3s ease;
+}
+/* line 173, sass/site/primary/_posts-and-pages.scss */
+.nav-links .nav-next a:hover:after {
+  margin-right: -10px;
 }
 
-/* line 154, sass/site/primary/_posts-and-pages.scss */
+/* line 181, sass/site/primary/_posts-and-pages.scss */
 .edit-link {
   margin: 1rem 0;
   padding-right: 1rem;
   text-align: right;
 }
-/* line 159, sass/site/primary/_posts-and-pages.scss */
+/* line 186, sass/site/primary/_posts-and-pages.scss */
 .edit-link a {
   background: rgba(0, 0, 0, 0.2);
   display: inline-block;
