@@ -1017,26 +1017,36 @@ a:hover, a:active {
 .tags-links {
   display: block;
   margin: 0 1rem;
-  opacity: 0.5;
-  text-align: right;
+  text-align: center;
 }
-/* line 92, sass/site/primary/_posts-and-pages.scss */
-.tags-links:hover {
+/* line 91, sass/site/primary/_posts-and-pages.scss */
+.tags-links a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  opacity: 0.5;
+}
+/* line 96, sass/site/primary/_posts-and-pages.scss */
+.tags-links a:before {
+  color: rgba(0, 0, 0, 0.5);
+  content: '#';
+}
+/* line 101, sass/site/primary/_posts-and-pages.scss */
+.tags-links a:hover {
   opacity: 1;
 }
 
-/* line 97, sass/site/primary/_posts-and-pages.scss */
+/* line 108, sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
 
-/* line 102, sass/site/primary/_posts-and-pages.scss */
+/* line 113, sass/site/primary/_posts-and-pages.scss */
 .nav-links {
   clear: both;
   overflow: hidden;
 }
-/* line 106, sass/site/primary/_posts-and-pages.scss */
+/* line 117, sass/site/primary/_posts-and-pages.scss */
 .nav-links a {
   background-color: rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
@@ -1046,25 +1056,38 @@ a:hover, a:active {
   line-height: 1;
   padding: 0.5rem 1rem;
 }
-/* line 118, sass/site/primary/_posts-and-pages.scss */
+/* line 129, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous {
   float: left;
 }
-/* line 121, sass/site/primary/_posts-and-pages.scss */
+/* line 132, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous a {
   background-position: 10px 50%;
   background-size: 50px;
   padding-left: 70px;
 }
-/* line 130, sass/site/primary/_posts-and-pages.scss */
+/* line 141, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next {
   float: right;
 }
-/* line 133, sass/site/primary/_posts-and-pages.scss */
+/* line 144, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next a {
   background-position: 95% 50%;
   background-size: 50px;
   padding-right: 70px;
+}
+
+/* line 154, sass/site/primary/_posts-and-pages.scss */
+.edit-link {
+  margin: 1rem 0;
+  padding-right: 1rem;
+  text-align: right;
+}
+/* line 159, sass/site/primary/_posts-and-pages.scss */
+.edit-link a {
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
 }
 
 /*--------------------------------------------------------------

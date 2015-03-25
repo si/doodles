@@ -86,12 +86,23 @@ $content-width : 36rem;
 .tags-links {
 	display: block;
 	margin: 0 1rem;
-	opacity: 0.5;
-	text-align: right;
+	text-align: center;
 
-	&:hover {
-		opacity: 1;
+	a {
+		display: inline-block;
+		margin: 0 0.5rem;
+		opacity: 0.5;
+
+		&:before {
+			color: rgba(#000,0.5);
+			content: '#';
+		}
+
+		&:hover {
+			opacity: 1;
+		}
 	}
+	
 }
 
 .page-links {
@@ -138,5 +149,16 @@ $content-width : 36rem;
 			padding-right: 70px;
 		}
 	}
+}
 
+.edit-link {
+	margin: 1rem 0;
+	padding-right: 1rem;
+	text-align: right;
+	
+	a {
+		background: rgba(#000,0.2);
+		display: inline-block;
+		padding: 0.25rem 0.5rem;
+	}
 }

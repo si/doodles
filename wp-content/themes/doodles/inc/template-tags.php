@@ -109,13 +109,13 @@ function doodles_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'doodles' ) );
 		if ( $categories_list && doodles_categorized_blog() ) {
-			printf( '<div class="cat-links">' . __( 'Posted in %1$s', 'doodles' ) . '</div>', $categories_list );
+			printf( '<div class="cat-links">' . __( '%1$s', 'doodles' ) . '</div>', $categories_list );
 		}
 
 		/* translators: used between list items, there is a space after the comma */
-		$tags_list = get_the_tag_list( '', __( ', ', 'doodles' ) );
+		$tags_list = get_the_tag_list( '', __( '', 'doodles' ) );
 		if ( $tags_list ) {
-			printf( '<div class="tags-links">' . __( 'Tagged %1$s', 'doodles' ) . '</div>', $tags_list );
+			printf( '<div class="tags-links">' . __( '%1$s', 'doodles' ) . '</div>', $tags_list );
 		}
 	}
 
