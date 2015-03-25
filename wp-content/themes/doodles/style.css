@@ -976,16 +976,14 @@ a:hover, a:active {
 }
 
 /* line 51, sass/site/primary/_posts-and-pages.scss */
-.entry-content,
-.entry-footer,
+.content-area,
 .comments-area {
   margin: 0 auto;
   max-width: 36rem;
   padding: 0 1rem;
 }
-/* line 59, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure img,
-.entry-footer figure img,
+/* line 58, sass/site/primary/_posts-and-pages.scss */
+.content-area figure img,
 .comments-area figure img {
   border: 3px solid #333;
   background: rgba(255, 255, 255, 0.5);
@@ -993,56 +991,52 @@ a:hover, a:active {
   transition: all 0.3s ease;
   z-index: 10;
 }
-/* line 66, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure img:hover,
-.entry-footer figure img:hover,
+/* line 65, sass/site/primary/_posts-and-pages.scss */
+.content-area figure img:hover,
 .comments-area figure img:hover {
   transform: rotate(0);
 }
-/* line 72, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure:nth-child(even) img,
-.entry-footer figure:nth-child(even) img,
+/* line 71, sass/site/primary/_posts-and-pages.scss */
+.content-area figure:nth-child(even) img,
 .comments-area figure:nth-child(even) img {
   transform: rotate(1deg);
 }
-/* line 76, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure .wp-caption-text,
-.entry-footer figure .wp-caption-text,
+/* line 75, sass/site/primary/_posts-and-pages.scss */
+.content-area figure .wp-caption-text,
 .comments-area figure .wp-caption-text {
   transform: rotate(1deg);
   z-index: 20;
 }
-/* line 81, sass/site/primary/_posts-and-pages.scss */
-.entry-content figure:nth-child(even) .wp-caption-text,
-.entry-footer figure:nth-child(even) .wp-caption-text,
+/* line 80, sass/site/primary/_posts-and-pages.scss */
+.content-area figure:nth-child(even) .wp-caption-text,
 .comments-area figure:nth-child(even) .wp-caption-text {
   transform: rotate(-1deg);
 }
 
-/* line 87, sass/site/primary/_posts-and-pages.scss */
+/* line 86, sass/site/primary/_posts-and-pages.scss */
 .tags-links {
   display: block;
   margin: 0 1rem;
   opacity: 0.5;
   text-align: right;
 }
-/* line 93, sass/site/primary/_posts-and-pages.scss */
+/* line 92, sass/site/primary/_posts-and-pages.scss */
 .tags-links:hover {
   opacity: 1;
 }
 
-/* line 98, sass/site/primary/_posts-and-pages.scss */
+/* line 97, sass/site/primary/_posts-and-pages.scss */
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
 }
 
-/* line 103, sass/site/primary/_posts-and-pages.scss */
+/* line 102, sass/site/primary/_posts-and-pages.scss */
 .nav-links {
   clear: both;
   overflow: hidden;
 }
-/* line 107, sass/site/primary/_posts-and-pages.scss */
+/* line 106, sass/site/primary/_posts-and-pages.scss */
 .nav-links a {
   background-color: rgba(0, 0, 0, 0.1);
   background-repeat: no-repeat;
@@ -1052,21 +1046,21 @@ a:hover, a:active {
   line-height: 1;
   padding: 0.5rem 1rem;
 }
-/* line 119, sass/site/primary/_posts-and-pages.scss */
+/* line 118, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous {
   float: left;
 }
-/* line 122, sass/site/primary/_posts-and-pages.scss */
+/* line 121, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-previous a {
   background-position: 10px 50%;
   background-size: 50px;
   padding-left: 70px;
 }
-/* line 131, sass/site/primary/_posts-and-pages.scss */
+/* line 130, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next {
   float: right;
 }
-/* line 134, sass/site/primary/_posts-and-pages.scss */
+/* line 133, sass/site/primary/_posts-and-pages.scss */
 .nav-links .nav-next a {
   background-position: 95% 50%;
   background-size: 50px;
