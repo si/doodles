@@ -1116,12 +1116,12 @@ a:hover, a:active {
 10.4 Footer
 --------------------------------------------------------------*/
 /* line 3, sass/site/primary/_site-footer.scss */
-footer {
+.site-footer {
   background: rgba(0, 0, 0, 0.1);
   padding: 3rem 1rem;
 }
 /* line 7, sass/site/primary/_site-footer.scss */
-footer .site-info {
+.site-footer .site-info {
   margin: 0 auto;
   max-width: 36rem;
   text-align: center;
