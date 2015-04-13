@@ -477,20 +477,24 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
+  background-image: url(img/page-texture.png);
+  background-repeat: repeat;
+  background-size: 50%;
+  background-attachment: fixed;
 }
 
-/* line 15, sass/elements/_elements.scss */
+/* line 19, sass/elements/_elements.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
 }
 
-/* line 20, sass/elements/_elements.scss */
+/* line 24, sass/elements/_elements.scss */
 blockquote, q {
   quotes: "" "";
 }
 
-/* line 24, sass/elements/_elements.scss */
+/* line 28, sass/elements/_elements.scss */
 hr {
   background-color: #ccc;
   border: 0;
@@ -530,7 +534,7 @@ dd {
   margin: 0 1.5em 1.5em;
 }
 
-/* line 33, sass/elements/_elements.scss */
+/* line 37, sass/elements/_elements.scss */
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -634,13 +638,25 @@ textarea {
 .site-branding {
   background: url(img/floral-rule.svg) no-repeat 50% 100%;
   margin: 0 0 2rem;
+  opacity: 0.8;
   padding: 2rem 0 20px;
   text-align: center;
+  transition: opacity 0.5s ease;
+}
+/* line 9, sass/navigation/_branding.scss */
+.site-branding:hover, .site-branding:focus {
+  opacity: 1;
 }
 
-/* line 8, sass/navigation/_branding.scss */
+/* line 15, sass/navigation/_branding.scss */
 .site-title img {
   max-height: 100px;
+  opacity: 0.8;
+  transition: opacity 0.5s ease;
+}
+/* line 20, sass/navigation/_branding.scss */
+.site-title img:hover, .site-title img:focus {
+  opacity: 1;
 }
 
 /*--------------------------------------------------------------

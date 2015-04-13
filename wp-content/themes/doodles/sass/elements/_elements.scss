@@ -10,6 +10,10 @@ html {
 
 body {
 	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+	background-image: url(img/page-texture.png);
+	background-repeat: repeat;
+	background-size: 50%;
+	background-attachment: fixed;
 }
 
 blockquote:before, blockquote:after,
